@@ -15,3 +15,6 @@ speaker.save_to_file(clean_text, 'story.mp3')
 speaker.runAndWait()
 
 speaker.stop()
+
+#deprecation related issue have been fixed -- functionality is a bit weird,
+#the output mp3 only have 1 line of the pdf transcribed from there
